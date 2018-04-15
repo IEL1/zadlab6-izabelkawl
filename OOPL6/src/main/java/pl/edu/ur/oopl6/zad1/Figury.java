@@ -43,8 +43,8 @@ public class Figury {
     }
 
     //Stożek
-    public static double Polestozek(double r, double h){
-        return  h * Math.PI * Math.pow(r, 2)*1/3;
+    public static double Polestozek(double r, double h) {
+        return h / 3 * Math.PI * Math.pow(r, 2);
     }
 
     //walec
